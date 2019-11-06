@@ -1,5 +1,7 @@
 # Todo
-- [x] Git 101 Linux
+- [x] Git 101
+- [ ] 'Refatorar' Git 101 
+- [ ] Adicionar refs
 - [ ] Testar Git 101 no Windows
 - [ ] Git Branch
 - [x] Como instalar o Anaconda e o labelme
@@ -41,39 +43,15 @@ realizado pelas pessoas envolvidas no projeto.
 essa plataforma é usada para facilitar o desenvolvimento de um projeto, pois oferece funcionalidades
 extras ao git e também permite o acesso ao código fonte de softwares *open-source*.
 
-### Motivação
-Qual a utilidade de uma ferramenta de versionamento para um estudante da área de computação?
-Um dos usos do git é evitar isso ↓.
-```
- ~/Documents/projeto_no_runcodes>                                                                                                                                                              
-├── main.c
-├── main1.c
-├── main_v2.c
-├── main_versao_final.c
-├── agora_vai.c
-└── eu_nunca_te_pedi_nada_run_codes.c
-```  
-Provavelmente você conhece alguém que já fez isso e esse alguém provavelmente é você.
-
-Outro uso é a facilidade de desenvolver em mais de um computador, 
-case tenha um desktop em casa e um notebook 
-ou o computador do lab para programar fora de casa.
-Ficar passando código por email ou pen-drive é pedir pra dar errado.
-
-No entanto, a maior vantagem de usar o git é gerenciar projetos em equipe.
-Em um futuro não tão distante, vocês terão que lidar com a abominação chamada "trabalho prático em equipe", a.k.a "destruidor de amizades", "forma mais efetiva de perder a fé na humanidade", "carregar mochila", dentre outros.
-É aqui que tudo realmente começa a dar errado, 
-o famoso "Faz uma parte que eu faço a outra" já não é aquelas coisas,
-agora tente aplicar essa metodologia com 3, 4, 5 pessoas, e passando o projeto na mão de cada um seja por email/drive/whatsapp.
 
 ### First Repo
 Nessa seção, veremos como criar e usar um repositorio no github.
   
 #### Passo 0.1: Criar uma conta no Github
-Para usar o github é necessário uma conta, como estudantes da UEA, temos direito ao Github Pro,
-que permite a criação de repositórios privados (Tu não quer os teus "colegas" "olhando" o teu projeto do run codes). 
+Para usar o github é necessário uma conta, estudantes da UEA tem direito ao Github Pro,
+que permite a criação de repositórios privados. 
 
-[Link de como conseguir a licença de estudante](https://www.treinaweb.com.br/blog/como-obter-uma-licenca-para-estudante-no-github/), caso já tenha uma conta com outro email é possível linkar a conta da universidade e conseguir a licença.
+[Como conseguir a licença de estudante](https://www.treinaweb.com.br/blog/como-obter-uma-licenca-para-estudante-no-github/), caso já tenha uma conta com outro email é possível linkar a conta da universidade e conseguir a licença.
 
 
 #### Passo 0.2: Instalando e configurando o Git
@@ -81,7 +59,7 @@ que permite a criação de repositórios privados (Tu não quer os teus "colegas
 
 Para configurar o git, basta executar os seguintes comandos no terminal:
 ```
-# o $ so indica o inicio do comando, nao digite ele
+# o $ indica o inicio do comando, nao digite ele
 # '#' inicia comentarios
 $ git config --global user.name "username_usado_no_git"
 $ git config --global user.email "iniciais@curso.uea.edu.br"
@@ -91,9 +69,9 @@ $ git config --global user.email "iniciais@curso.uea.edu.br"
 
 No terminal basta executar essa sequência de comandos:
 ```
-$ mkdir repo #cria o diretorio do repositorio
-$ cd repo #entra no dir
-$ git init # inicializa o git
+$ mkdir repo    #cria o diretorio do repositorio
+$ cd repo       #entra no dir
+$ git init      # inicializa o git
 Initialized empty Git repository in /home/yonekura/Documents/repo/.git/
 ```
 
@@ -131,7 +109,7 @@ Para commitar o repo:
 ```
 $ git commit -m "Mensagem do commit"
 ```
-Existem boas práticas de como fazer uma mensagem de commit, não vou falar sobre, mas a dica que eu dou é, não escreva "finalmente", "asdf", "agora vai" ...
+Existem boas práticas de como fazer uma mensagem de commit, não vou falar sobre.
 
 #### Passo 4: Repositório no Github
 Com o commit criado, o próximo passo é criar o repo no github.
