@@ -14,9 +14,10 @@ o programa pode ser facilmente instalado com o comando abaixo:
 sudo apt-get install labelme
 ```
 ### Windows e outras distribuições de Linux
-Para instalar o programa nesses sistemas é necessário instalar o **Anaconda**.
-O Anaconda é uma distribuição de Python que facilita a instalação de programas e bibliotecas.
-[Tutorial de Instalação no Windows e Ubuntu](https://minerandodados.com.br/instalar-python-anaconda/)
+Para instalar o programa nesses sistemas é necessário instalar o **Anaconda**, o Anaconda é uma distribuição de Python que facilita a instalação de programas e bibliotecas.
+
+[Tutorial de Instalação no Windows e Ubuntu](https://minerandodados.com.br/instalar-python-anaconda/).
+
 Após instalar o Anaconda, basta executar o comando abaixo:
 ```
 conda install labelme -c conda-forge
