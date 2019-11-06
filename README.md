@@ -1,3 +1,10 @@
+# Todo
+- [x] Git 101 Linux
+- [ ] Testar Git 101 no Windows
+- [ ] Git Branch
+- [x] Como instalar o Anaconda e o labelme
+- [ ] Como usar o labelme
+- [ ] Guideline de segmentação
 
 # PCA Coin label
 
