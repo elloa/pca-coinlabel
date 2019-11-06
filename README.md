@@ -128,10 +128,10 @@ Existem boas práticas de como fazer uma mensagem de commit, não vou falar sobr
 
 #### Passo 4: Repositório no Github
 Com o commit criado, o próximo passo é criar o repo no github.
- ![step1](tutorial_imgs/repo_step1)
- ![step2](tutorial_imgs/repo_step2)
- ![step3](tutorial_imgs/create_repo)
- ![step4](tutorial_imgs/setup_repo)
+ ![step1](tutorial_imgs/repo_step1.png)
+ ![step2](tutorial_imgs/repo_step2.png)
+ ![step3](tutorial_imgs/create_repo.png)
+ ![step4](tutorial_imgs/setup_repo.png)
 
 ## Workflow Linux
 Na primeira vez que executar o programa, é necessário criar uma branch própria.
