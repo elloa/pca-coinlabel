@@ -9,6 +9,10 @@
 - [ ] Guideline de segmentação
 
 
+
+
+# PCA Coin label
+
 - [Todo](#todo)
 - [PCA Coin label](#pca-coin-label)
   * [Preparando o ambiente de trabalho](#preparando-o-ambiente-de-trabalho)
@@ -24,21 +28,12 @@
       - [Passo 2: Mudanças](#passo-2--mudan-as)
       - [Passo 3: First Commit](#passo-3--first-commit)
       - [Passo 4: Repositório no Github](#passo-4--reposit-rio-no-github)
-  * [![step1](tutorial_imgs/repo_step1.png)](#--step1--tutorial-imgs-repo-step1png-)
-  * [![step2](tutorial_imgs/repo_step2.png)](#--step2--tutorial-imgs-repo-step2png-)
-  * [![step3](tutorial_imgs/create_repo.png)](#--step3--tutorial-imgs-create-repopng-)
-  * [![step4](tutorial_imgs/setup_repo.png)](#--step4--tutorial-imgs-setup-repopng-)
       - [Considerações](#considera--es)
     + [Forks e Pull Requests](#forks-e-pull-requests)
       - [Fork](#fork)
       - [Pull Request](#pull-request)
   * [Usando o labelme](#usando-o-labelme)
-  * [![wrong label](tutorial_imgs/wrong_label.png)](#--wrong-label--tutorial-imgs-wrong-labelpng-)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-# PCA Coin label
 
 ## Preparando o ambiente de trabalho
 ### Ubuntu 19.10+ / Debian (sid)
