@@ -2,11 +2,41 @@
 - [x] Git 101
 - [x] 'Refatorar' Git 101 
 - [ ] Adicionar refs
-- [ ] Testar Git 101 no Windows
+- [x] Testar Git 101 no Windows
 - [x] Fork e Pull Request
 - [x] Como instalar o Anaconda e o labelme
 - [x] Como usar o labelme
 - [ ] Guideline de segmentação
+
+
+- [Todo](#todo)
+- [PCA Coin label](#pca-coin-label)
+  * [Preparando o ambiente de trabalho](#preparando-o-ambiente-de-trabalho)
+    + [Ubuntu 19.10+ / Debian (sid)](#ubuntu-1910----debian--sid-)
+    + [Windows e outras distribuições de Linux](#windows-e-outras-distribui--es-de-linux)
+    + [MacOs](#macos)
+  * [Git & Github 101](#git---github-101)
+    + [Conceitos](#conceitos)
+    + [First Repo](#first-repo)
+      - [Passo 0.1: Criar uma conta no Github](#passo-01--criar-uma-conta-no-github)
+      - [Passo 0.2: Instalando e configurando o Git](#passo-02--instalando-e-configurando-o-git)
+      - [Passo 1: Inicializando o repositório](#passo-1--inicializando-o-reposit-rio)
+      - [Passo 2: Mudanças](#passo-2--mudan-as)
+      - [Passo 3: First Commit](#passo-3--first-commit)
+      - [Passo 4: Repositório no Github](#passo-4--reposit-rio-no-github)
+  * [![step1](tutorial_imgs/repo_step1.png)](#--step1--tutorial-imgs-repo-step1png-)
+  * [![step2](tutorial_imgs/repo_step2.png)](#--step2--tutorial-imgs-repo-step2png-)
+  * [![step3](tutorial_imgs/create_repo.png)](#--step3--tutorial-imgs-create-repopng-)
+  * [![step4](tutorial_imgs/setup_repo.png)](#--step4--tutorial-imgs-setup-repopng-)
+      - [Considerações](#considera--es)
+    + [Forks e Pull Requests](#forks-e-pull-requests)
+      - [Fork](#fork)
+      - [Pull Request](#pull-request)
+  * [Usando o labelme](#usando-o-labelme)
+  * [![wrong label](tutorial_imgs/wrong_label.png)](#--wrong-label--tutorial-imgs-wrong-labelpng-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # PCA Coin label
 
@@ -252,5 +282,7 @@ um "check" fica ao lado do nome da imagem indicando que aquela imagem já esta r
 Obs: É possível abilitar o salvamento automático das imagens, clique em File no canto superior esquerdo,
 e ative a opção "Save Automatically".
 
-
-
+<!---
+https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
+https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
+-->
