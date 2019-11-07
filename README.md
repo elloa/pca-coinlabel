@@ -257,6 +257,8 @@ um "check" fica ao lado do nome da imagem indicando que aquela imagem já esta r
 Obs: É possível abilitar o salvamento automático das imagens, clique em File no canto superior esquerdo,
 e ative a opção "Save Automatically".
 
+
+
 <!---
 https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
 https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
