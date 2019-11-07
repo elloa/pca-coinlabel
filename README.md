@@ -114,20 +114,21 @@ Existem boas práticas de como fazer uma mensagem de commit, não vou falar sobr
 #### Passo 4: Repositório no Github
 Com o commit criado, o próximo passo é criar o repo no github.
 
+
+1) Vá para a janela de repositórios.
+
 ![step1](tutorial_imgs/repo_step1.png)
-
-1) Vá para a parte a seção de repositórios.
-
-![step2](tutorial_imgs/repo_step2.png)
+---
 
 2) Crie um novo repo.
 
-![step3](tutorial_imgs/create_repo.png)
+![step2](tutorial_imgs/repo_step2.png)
+---
 
 3) Escolha um nome para o repo e as configurações do mesmo (pode deixar as configs padrões).
 
-
-![step4](tutorial_imgs/setup_repo.png)
+![step3](tutorial_imgs/create_repo.png)
+---
 
 4) "Sincronizar" o git com o repo do github.
 Quando o repo é criado e está vazio, 
@@ -138,6 +139,8 @@ $ git remote add origin https://github.com/username/repo_name.git # Adiciona o e
 $ git push -u origin master # para atualizar o repo do github
 ```
 
+![step4](tutorial_imgs/setup_repo.png)
+---
 
 ## Workflow Linux
 Na primeira vez que executar o programa, é necessário criar uma branch própria.
