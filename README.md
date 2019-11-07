@@ -142,6 +142,60 @@ $ git push -u origin master # para atualizar o repo do github
 ![step4](tutorial_imgs/setup_repo.png)
 ---
 
+
+
+## Usando o labelme
+Com o Anaconda e o labelme instalado,
+abra o terminal e vá para o diretório com as imagens,
+depois execute o comando `labelme .` .
+
+```
+$ cd /endereço_do_dir/<Matricula>/
+$ labelme . # o '.' indica que deve abrir todas as imagens do dir atual
+```
+Se o programa abrir e exibir os arquivos no lado esquerdo da tela, 
+significa que a instalação foi efetuada com sucesso.
+
+![open](tutorial_imgs/open_labelme.png)
+
+No lado direito da tela se encontra a File List e a Label List,
+a File List ela exibe todos os arquivos abertos e indica se a imagen já foi rotulada,
+e a Label List mostra todos os rótulos usados.
+---
+
+Para criar um rótulo, clique com o botão direito na imagem e selecione "Create Circle",
+em seguida clique na imagem, isso irá marcar o centro do círculo, 
+depois é preciso marcar o raio do círculo, basta clicar novamente.
+![create circle](tutorial_imgs/create_circle.png)
+
+Uma janela aparecerá, o campo de cima é o input do rótulo da moeda (para moedas de 1 real, use '100'),
+o campo de baixo contém todos os rótulos usados no projeto.
+![label name menu](tutorial_imgs/name_label.png)
+
+![wrong label](tutorial_imgs/wrong_label.png)
+---
+
+Para editar um rótulo, clique no botão direito e selecione "Edit Polygons",
+para mudar o centro de lugar clique no centro da moeda e arraste,
+para mudar o raio da moeda clique no ponto exterior da moeda e arraste.
+
+![correct label](tutorial_imgs/correct_label.png)
+
+Para ir para a próxima imagem, clique em "Next Image" no lado esquerdo da tela,
+salve o arquivo com o nome padrão. Quando o rótulo de uma imagem é criado e salvo,
+um "check" fica ao lado do nome da imagem indicando que aquela imagem já esta rótulada.
+
+
+
+
+
+
+
+
+
+
+
+
 ## Workflow Linux
 Na primeira vez que executar o programa, é necessário criar uma branch própria.
    1. Abra o terminal.
