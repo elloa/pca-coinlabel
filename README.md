@@ -1,11 +1,11 @@
 # Todo
 - [x] Git 101
-- [ ] 'Refatorar' Git 101 
+- [x] 'Refatorar' Git 101 
 - [ ] Adicionar refs
 - [ ] Testar Git 101 no Windows
-- [ ] Git Branch
+- [x] Fork e Pull Request
 - [x] Como instalar o Anaconda e o labelme
-- [ ] Como usar o labelme
+- [x] Como usar o labelme
 - [ ] Guideline de segmentação
 
 # PCA Coin label
@@ -135,19 +135,72 @@ Quando o repo é criado e está vazio,
 ele apresenta uma tela com opções de como sincronizar o repo.
 No nosso caso, basta executar os comando abaixos (os passos anteriores já foram feitos):
 ```
-$ git remote add origin https://github.com/username/repo_name.git # Adiciona o endereco do repo do git
+$ git remote add origin https://github.com/<username>/<repo_name.git> # Adiciona o endereco do repo do git
 $ git push -u origin master # para atualizar o repo do github
 ```
+Digite seu login e senha do Github.
 
 ![step4](tutorial_imgs/setup_repo.png)
 ---
 
+Se tudo deu certo, a tela de setup deixa de aparecer e o seu README.md ficará visível no repo do github.
+
 #### Considerações
 
-### Branches, merges e requests
+### Forks e Pull Requests
+Para contribuir com projetos abertos é preciso ter o conhecimento sobre *Forks* e *Pull Requests*.
+Um Fork é uma cópia de um repositório que permite alterações no projeto sem afetar o repo original,
+normalmente é usado para propor mudanças para um projeto sem ser um *mantainer* (possuir permissão para alterar o código).
+Um pull request é justamente a formalização da proposição de mudança, que sera avaliada por um mantainer.
 
+#### Fork
+Para criar um Fork basta clicar no botão Fork:
+![create fork](tutorial_imgs/create_fork.png)
 
+![created fork](tutorial_imgs/fork_section.png)
 
+Agora basta criar um repo do git no seu computador e adicionar o fork.
+É possivel adicionar o repo usando `git remote add origin ...`, porém, 
+existe um comando que facilita esse processo.
+
+No seu fork, clique em "Clone or download" e copie o link (tenha certeza que esta usando https)
+![clone](tutorial_imgs/clone.png)
+
+No terminal, vá para onde quer criar o repo e execute:
+```
+$ git clone https://resto_do_link # cola o link
+```
+
+Esse Fork é onde o trabalho será feito, para depois ser adicionado ao repo original.
+
+Como teste vá para o diretório com sua matrícula e crie um arquivo qualquer, add, commit e push no git.
+
+```
+$ touch file.txt
+$ git add file.txt
+$ git commit -m 'testando commit'
+$ git push origin master
+```
+Verifique se o arquivo está presente no Fork do github.
+
+#### Pull Request
+Para criar um pull request, vá para o repo original e clique em "New pull request":
+
+![create pull request](tutorial_imgs/create_pull_request.png)
+
+Clique em "compare across forks"
+
+![compare across forks](tutorial_imgs/compare_across_forks.png)
+
+No dropdown de "head repository" escolha o seu fork.
+
+![choose fork](tutorial_imgs/choose_fork.png)
+
+![end request](tutorial_imgs/end_pull_request.png)
+
+O pull request será avaliado conforme a disponibilidade dos mantainers.
+
+Para treino, faça um Pull Request no repo.
 
 ## Usando o labelme
 Com o Anaconda e o labelme instalado,
@@ -192,5 +245,9 @@ para mudar o raio da moeda clique no ponto exterior da moeda e arraste.
 Para ir para a próxima imagem, clique em "Next Image" no lado esquerdo da tela,
 salve o arquivo com o nome padrão. Quando o rótulo de uma imagem é criado e salvo,
 um "check" fica ao lado do nome da imagem indicando que aquela imagem já esta rótulada.
+
+Obs: É possível abilitar o salvamento automático das imagens, clique em File no canto superior esquerdo,
+e ative a opção "Save Automatically".
+
 
 
