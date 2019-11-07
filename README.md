@@ -103,7 +103,7 @@ Changes to be committed:
 	new file:   README.md
 ```
 #### Passo 3: First Commit
-Agora que o git está rastreando o arquivo, podemos criar um commit, o commit é tipo um savepoint, ele pode restaurar o estado que o repo estava e voltar para o presente (chamado de HEAD).
+Agora que o git está rastreando o arquivo, podemos criar um commit, o commit é tipo um savepoint, ele pode restaurar o estado que o repo estava e depois voltar para o último commit (chamado de HEAD).
 
 Para commitar o repo:
 ```
@@ -113,10 +113,27 @@ Existem boas práticas de como fazer uma mensagem de commit, não vou falar sobr
 
 #### Passo 4: Repositório no Github
 Com o commit criado, o próximo passo é criar o repo no github.
- ![step1](tutorial_imgs/repo_step1.png)
- ![step2](tutorial_imgs/repo_step2.png)
- ![step3](tutorial_imgs/create_repo.png)
- ![step4](tutorial_imgs/setup_repo.png)
+
+![step1](tutorial_imgs/repo_step1.png)
+1) Vá para a parte a seção de repositórios.
+
+![step2](tutorial_imgs/repo_step2.png)
+2) Crie um novo repo.
+
+![step3](tutorial_imgs/create_repo.png)
+3) Escolha um nome para o repo e as configurações do mesmo (pode deixar as configs padrões).
+
+
+![step4](tutorial_imgs/setup_repo.png)
+4) "Sincronizar" o git com o repo do github.
+Quando o repo é criado e está vazio, 
+ele apresenta uma tela com opções de como sincronizar o repo.
+No nosso caso, basta executar os comando abaixos (os passos anteriores já foram feitos):
+```
+$ git remote add origin https://github.com/username/repo_name.git # Adiciona o endereco do repo do git
+$ git push -u origin master # para atualizar o repo do github
+```
+
 
 ## Workflow Linux
 Na primeira vez que executar o programa, é necessário criar uma branch própria.
