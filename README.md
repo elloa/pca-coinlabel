@@ -148,10 +148,10 @@ Se tudo deu certo, a tela de setup deixa de aparecer e o seu README.md ficará v
 #### Considerações
 
 ### Forks e Pull Requests
-Para contribuir com projetos abertos é preciso ter o conhecimento sobre *Forks* e *Pull Requests*.
+Para contribuir em projetos abertos é preciso ter o conhecimento sobre *Forks* e *Pull Requests*.
 Um Fork é uma cópia de um repositório que permite alterações no projeto sem afetar o repo original,
 normalmente é usado para propor mudanças para um projeto sem ser um *mantainer* (possuir permissão para alterar o código).
-Um pull request é justamente a formalização da proposição de mudança, que sera avaliada por um mantainer.
+Um pull request é a formalização da proposição de mudança, que sera avaliada por um mantainer.
 
 #### Fork
 Para criar um Fork basta clicar no botão Fork:
@@ -196,6 +196,9 @@ No dropdown de "head repository" escolha o seu fork.
 
 ![choose fork](tutorial_imgs/choose_fork.png)
 
+Escreva uma mensagem sobre o conteúdo do seu request,
+verifique as mudanças propostas.
+
 ![end request](tutorial_imgs/end_pull_request.png)
 
 O pull request será avaliado conforme a disponibilidade dos mantainers.
@@ -204,7 +207,7 @@ Para treino, faça um Pull Request no repo.
 
 ## Usando o labelme
 Com o Anaconda e o labelme instalado,
-abra o terminal e vá para o diretório com as imagens,
+abra o terminal e vá para o seu diretório com as imagens dentro do seu fork,
 depois execute o comando `labelme .` .
 
 ```
