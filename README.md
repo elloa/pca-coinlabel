@@ -115,16 +115,20 @@ Existem boas práticas de como fazer uma mensagem de commit, não vou falar sobr
 Com o commit criado, o próximo passo é criar o repo no github.
 
 ![step1](tutorial_imgs/repo_step1.png)
+
 1) Vá para a parte a seção de repositórios.
 
 ![step2](tutorial_imgs/repo_step2.png)
+
 2) Crie um novo repo.
 
 ![step3](tutorial_imgs/create_repo.png)
+
 3) Escolha um nome para o repo e as configurações do mesmo (pode deixar as configs padrões).
 
 
 ![step4](tutorial_imgs/setup_repo.png)
+
 4) "Sincronizar" o git com o repo do github.
 Quando o repo é criado e está vazio, 
 ele apresenta uma tela com opções de como sincronizar o repo.
