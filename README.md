@@ -13,19 +13,6 @@
 
 # PCA Coin label
 
-- [Todo](#todo)
-- [PCA Coin label](#pca-coin-label)
-  * [Preparando o ambiente de trabalho](#preparando-o-ambiente-de-trabalho)
-    + [Ubuntu 19.10+ / Debian (sid)](#ubuntu-19.10+-/-debian-(sid))
-    + [Windows e outras distribuições de Linux](#windows-e-outras-distribuições-de-linux)
-    + [MacOs](#macos)
-  * [Git & Github 101](#git-&-github-101)
-    + [Conceitos](#conceitos)
-    + [First Repo](#first-repo)
-    + [Forks e Pull Requests](#forks-e-pull-requests)
-      - [Fork](#fork)
-      - [Pull Request](#pull-request)
-  * [Usando o labelme](#usando-o-labelme)
 
 
 ## Preparando o ambiente de trabalho
