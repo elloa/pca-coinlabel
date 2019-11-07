@@ -28,8 +28,8 @@ conda install labelme -c conda-forge
 ```
 ### MacOs
 ```
-brew install pyqt  # maybe pyqt5
-pip install labelme
+$ brew install pyqt  
+$ pip install labelme
 ```
 
 ## Git & Github 101
@@ -103,7 +103,7 @@ Changes to be committed:
 	new file:   README.md
 ```
 #### Passo 3: First Commit
-Agora que o git está rastreando o arquivo, podemos criar um commit, o commit é tipo um savepoint, ele pode restaurar o estado que o repo estava e depois voltar para o último commit (chamado de HEAD).
+Agora que o git está rastreando o arquivo, podemos criar um commit, o commit funciona como um savepoint, ele pode restaurar o estado que o repo estava e depois voltar para o último commit (chamado de HEAD).
 
 Para commitar o repo:
 ```
@@ -142,6 +142,11 @@ $ git push -u origin master # para atualizar o repo do github
 ![step4](tutorial_imgs/setup_repo.png)
 ---
 
+#### Considerações
+
+### Branches, merges e requests
+
+
 
 
 ## Usando o labelme
@@ -161,15 +166,18 @@ significa que a instalação foi efetuada com sucesso.
 No lado direito da tela se encontra a File List e a Label List,
 a File List ela exibe todos os arquivos abertos e indica se a imagen já foi rotulada,
 e a Label List mostra todos os rótulos usados.
+
 ---
 
 Para criar um rótulo, clique com o botão direito na imagem e selecione "Create Circle",
 em seguida clique na imagem, isso irá marcar o centro do círculo, 
 depois é preciso marcar o raio do círculo, basta clicar novamente.
+
 ![create circle](tutorial_imgs/create_circle.png)
 
 Uma janela aparecerá, o campo de cima é o input do rótulo da moeda (para moedas de 1 real, use '100'),
 o campo de baixo contém todos os rótulos usados no projeto.
+
 ![label name menu](tutorial_imgs/name_label.png)
 
 ![wrong label](tutorial_imgs/wrong_label.png)
@@ -186,24 +194,3 @@ salve o arquivo com o nome padrão. Quando o rótulo de uma imagem é criado e s
 um "check" fica ao lado do nome da imagem indicando que aquela imagem já esta rótulada.
 
 
-
-
-
-
-
-
-
-
-
-
-## Workflow Linux
-Na primeira vez que executar o programa, é necessário criar uma branch própria.
-   1. Abra o terminal.
-   2. Mude para o diretório com o número de sua matrícula:
-  ```
-  cd <endereco_do_repo>/<Matricula>/ 
-  #exemplo
-  cd /home/user/Documents/pca-coinlabel/<Matricula>/
- ```
-   4. Crie uma branch com seu <Nome ou Matrícula> `git checkout -b <Matricula>`.
-   5. Execute o comando `labelme .` (O ponto representa o diretório atual).
