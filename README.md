@@ -16,6 +16,8 @@
 
 
 ## Preparando o ambiente de trabalho
+Esse link possui outras formas de instalar o labelme.
+[Link do repositório oficial](https://github.com/wkentaro/labelme)
 ### Ubuntu 19.10+ / Debian (sid)
 Nas distribuições mais novas do Ubuntu e no Debian (sid),
 o programa pode ser facilmente instalado com o comando abaixo:
@@ -27,9 +29,12 @@ Para instalar o programa nesses sistemas é necessário instalar o **Anaconda**,
 
 [Tutorial de Instalação no Windows e Ubuntu](https://minerandodados.com.br/instalar-python-anaconda/).
 
-Após instalar o Anaconda, basta executar o comando abaixo:
+Após instalar o Anaconda, basta executar o(s) comando(s) abaixo:
 ```
-conda install labelme -c conda-forge
+$ conda install labelme -c conda-forge
+
+#caso esteja usando Windows é necessário instalar o pillow 4
+$ conda install pillow=4.0.0
 ```
 ### MacOs
 ```
