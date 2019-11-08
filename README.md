@@ -7,7 +7,7 @@ Para criar uma issue, clique na aba "Issues".
 
 Clique em "New issue"
 
-![issue new](tutorial_imgs/issue_tab.png)
+![issue new](tutorial_imgs/new_issue.png)
 
 ---
 
