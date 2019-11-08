@@ -1,14 +1,29 @@
-# Todo
-- [x] Git 101
-- [x] 'Refatorar' Git 101 
-- [ ] Adicionar refs
-- [x] Testar Git 101 no Windows
-- [x] Fork e Pull Request
-- [x] Como instalar o Anaconda e o labelme
-- [x] Como usar o labelme
-- [ ] Guideline de segmentação
+# Como criar uma issue
+Para criar uma issue, clique na aba "Issues".
 
+![issue tab](tutorial_imgs/issue_tab.png)
 
+---
+
+Clique em "New issue"
+
+![issue new](tutorial_imgs/issue_tab.png)
+
+---
+
+Escolha um tipo de Issue
+
+![issue type](tutorial_imgs/issue_type.png)
+
+---
+
+Preencha a issue com informações sobre o erro.
+
+Também é muito importante saber qual é o seu sistema operacional caso seja um problema de instalação.
+
+![issue tab](tutorial_imgs/issue_error.png)
+
+---
 
 
 # PCA Coin label
