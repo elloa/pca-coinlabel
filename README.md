@@ -1,14 +1,29 @@
-# Todo
-- [x] Git 101
-- [x] 'Refatorar' Git 101 
-- [ ] Adicionar refs
-- [x] Testar Git 101 no Windows
-- [x] Fork e Pull Request
-- [x] Como instalar o Anaconda e o labelme
-- [x] Como usar o labelme
-- [ ] Guideline de segmentação
+# Como criar uma issue
+Para criar uma issue, clique na aba "Issues".
 
+![issue tab](tutorial_imgs/issue_tab.png)
 
+---
+
+Clique em "New issue"
+
+![issue new](tutorial_imgs/new_issue.png)
+
+---
+
+Escolha um tipo de Issue
+
+![issue type](tutorial_imgs/issue_type.png)
+
+---
+
+Preencha a issue com informações sobre o erro.
+
+Também é muito importante saber qual é o seu sistema operacional caso seja um problema de instalação.
+
+![issue tab](tutorial_imgs/issue_error.png)
+
+---
 
 
 # PCA Coin label
@@ -16,6 +31,8 @@
 
 
 ## Preparando o ambiente de trabalho
+Esse link possui outras formas de instalar o labelme.
+[Link do repositório oficial](https://github.com/wkentaro/labelme)
 ### Ubuntu 19.10+ / Debian (sid)
 Nas distribuições mais novas do Ubuntu e no Debian (sid),
 o programa pode ser facilmente instalado com o comando abaixo:
@@ -27,9 +44,12 @@ Para instalar o programa nesses sistemas é necessário instalar o **Anaconda**,
 
 [Tutorial de Instalação no Windows e Ubuntu](https://minerandodados.com.br/instalar-python-anaconda/).
 
-Após instalar o Anaconda, basta executar o comando abaixo:
+Após instalar o Anaconda, basta executar o(s) comando(s) abaixo:
 ```
-conda install labelme -c conda-forge
+$ conda install labelme -c conda-forge
+
+#caso esteja usando Windows é necessário instalar o pillow 4
+$ conda install pillow=4.0.0
 ```
 ### MacOs
 ```
