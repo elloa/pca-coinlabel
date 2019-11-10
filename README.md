@@ -1,39 +1,41 @@
-#Avisos importantes
-Rotulem moedas de 1 Real como "100" para preservar o nome que está no arquivo.
+# Avisos importantes
+1. Rotulem moedas de 1 Real como "100" para preservar o nome que está no arquivo.
 
-Encontrei moedas onde o nome do arquivo fala que é uma moeda de 50 centavos, quando na realidade é uma moeda de 5 cents,
+2. Encontrei moedas onde o nome do arquivo fala que é uma moeda de 50 centavos, quando na realidade é uma moeda de 5 cents,
 caso encontrem um desses casos, abram uma issue com a sua matrícula e nome do arquivo. Rotulem como 5 centavos.
-Moeda afetadas
-50_1477290564.jpg
-50_1477290570.jpg
-50_1477290576.jpg
-50_1477290582.jpg
-50_1477290588.jpg
-50_1477290594.jpg
-50_1477290600.jpg
-50_1477290606.jpg
-50_1477290612.jpg
-50_1477290618.jpg
-50_1477290624.jpg
-50_1477290630.jpg
-50_1477290636.jpg
-50_1477290642.jpg
-50_1477290648.jpg
-50_1477290654.jpg
-50_1477290660.jpg
-50_1477290666.jpg
-50_1477290672.jpg
-50_1477290678.jpg
-50_1477290684.jpg
-50_1477290690.jpg
-50_1477290696.jpg
-50_1477290702.jpg
-50_1477290708.jpg
-50_1477290714.jpg
-50_1477290720.jpg
-50_1477290726.jpg
-50_1477290732.jpg
-50_1477290738.jpg
+
+Moeda afetadas:
+* 50_1477290564.jpg
+* 50_1477290570.jpg
+* 50_1477290576.jpg
+* 50_1477290582.jpg
+* 50_1477290588.jpg
+* 50_1477290594.jpg
+* 50_1477290600.jpg
+* 50_1477290606.jpg
+* 50_1477290612.jpg
+* 50_1477290618.jpg
+* 50_1477290624.jpg
+* 50_1477290630.jpg
+* 50_1477290636.jpg
+* 50_1477290642.jpg
+* 50_1477290648.jpg
+* 50_1477290654.jpg
+* 50_1477290660.jpg
+* 50_1477290666.jpg
+* 50_1477290672.jpg
+* 50_1477290678.jpg
+* 50_1477290684.jpg
+* 50_1477290690.jpg
+* 50_1477290696.jpg
+* 50_1477290702.jpg
+* 50_1477290708.jpg
+* 50_1477290714.jpg
+* 50_1477290720.jpg
+* 50_1477290726.jpg
+* 50_1477290732.jpg
+* 50_1477290738.jpg
+
 
 # Como criar uma issue
 Para criar uma issue, clique na aba "Issues".
