@@ -1,0 +1,25 @@
+algumas moedas estavam segmentadas com baixa qualidade.
+
+	modified:   120_1479422904.json
+	modified:   140_1479427422.json
+	modified:   150_1477864368.json
+	modified:   150_1479429564.json
+	modified:   30_1477787502.json
+	modified:   35_1477789908.json
+	modified:   35_1477789920.json
+	modified:   35_1477790010.json
+	modified:   45_1477837008.json
+	modified:   50_1477281966.json
+	modified:   55_1477839210.json
+	modified:   55_1477842036.json
+	modified:   55_1477842198.json
+	modified:   75_1477849614.json
+	modified:   75_1477850058.json
+	modified:   75_1477850376.json
+	modified:   80_1477850706.json
+	modified:   90_1477855584.json
+	modified:   90_1477855728.json
+	modified:   90_1477855770.json
+	modified:   95_1477857360.json
+	modified:   95_1477857726.json
+	modified:   95_1477858068.json
