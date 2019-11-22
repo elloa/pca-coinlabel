@@ -11,12 +11,13 @@ matriculas.sort()
 
 
 fingers = 0
+print('-------------------------------------------------------')
 
 for matricula in matriculas:
     json_pattern = re.compile(repo_dir + matricula + '(.*\.json)')
     files = [json_pattern.match(i).group(1) for i in glob.glob(repo_dir+matricula+'/*') if json_pattern.match(i) is not None]
     files.sort()
-    print(matricula,'qtd:',len(files),end='')
+    print(matricula,'qtd:',len(files))
     sum_error = 0
     for f in files:
         with open(repo_dir+matricula+'/'+f) as json_file:
@@ -33,7 +34,8 @@ for matricula in matriculas:
                 fingers+=1
             f_class = filename_pattern.search(f)
             if f_class is not None and int(f_class.group(1)) != s:
+                print(matricula+'/'+f)
                 sum_error+=1
-    print(' erros:',sum_error,end='')
+    #print(' erros:',sum_error,end='')
     print()
 

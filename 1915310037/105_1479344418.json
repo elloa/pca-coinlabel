@@ -88,7 +88,7 @@
       "flags": {}
     },
     {
-      "label": "25",
+      "label": "5",
       "line_color": null,
       "fill_color": null,
       "points": [
@@ -99,23 +99,6 @@
         [
           347.94244604316543,
           110.7913669064748
-        ]
-      ],
-      "shape_type": "circle",
-      "flags": {}
-    },
-    {
-      "label": "5",
-      "line_color": null,
-      "fill_color": null,
-      "points": [
-        [
-          314.84892086330933,
-          130.2158273381295
-        ],
-        [
-          347.94244604316543,
-          112.23021582733811
         ]
       ],
       "shape_type": "circle",

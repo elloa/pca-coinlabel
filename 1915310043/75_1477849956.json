@@ -154,6 +154,23 @@
       ],
       "shape_type": "circle",
       "flags": {}
+    },
+    {
+      "label": "10",
+      "line_color": null,
+      "fill_color": null,
+      "points": [
+        [
+          514.1290322580645,
+          269.2903225806451
+        ],
+        [
+          543.1612903225806,
+          257.46236559139777
+        ]
+      ],
+      "shape_type": "circle",
+      "flags": {}
     }
   ],
   "lineColor": [

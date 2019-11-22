@@ -20,40 +20,6 @@
       "flags": {}
     },
     {
-      "label": "50",
-      "line_color": null,
-      "fill_color": null,
-      "points": [
-        [
-          208.15328467153284,
-          311.40875912408757
-        ],
-        [
-          235.1605839416058,
-          336.22627737226276
-        ]
-      ],
-      "shape_type": "circle",
-      "flags": {}
-    },
-    {
-      "label": "50",
-      "line_color": null,
-      "fill_color": null,
-      "points": [
-        [
-          109.80291970802921,
-          267.07299270072986
-        ],
-        [
-          136.81021897810217,
-          291.89051094890505
-        ]
-      ],
-      "shape_type": "circle",
-      "flags": {}
-    },
-    {
       "label": "5",
       "line_color": null,
       "fill_color": null,
@@ -139,7 +105,7 @@
       "flags": {}
     },
     {
-      "label": "10",
+      "label": "5",
       "line_color": null,
       "fill_color": null,
       "points": [
