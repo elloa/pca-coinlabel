@@ -41,6 +41,6 @@ for matricula in matriculas:
         
         for i, coin in enumerate(segmented_coins):
             label = circles[i]['label']
-            #cv.imwrite(dst_dir + label + '/' + "{}_{}_{}.jpg".format(label,image_id,i),coin)
-            print(dst_dir + label + '/' + "{}_{}_{}.jpg".format(label,image_id,i))
+            cv.imwrite(dst_dir + label + '/' + "{}_{}_{}.jpg".format(label,image_id,i),coin)
+            #print(dst_dir + label + '/' + "{}_{}_{}.jpg".format(label,image_id,i))
 
