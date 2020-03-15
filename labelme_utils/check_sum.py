@@ -28,7 +28,7 @@ for matricula in matriculas:
                 if d['label'] == 'finger':
                     finger = True
                     continue
-                elif d['shape_type'] == "circle":
+                else:
                     count+=1
                     s += int(d['label'])
             if finger:
