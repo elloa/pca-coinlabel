@@ -13,10 +13,12 @@ matriculas.sort()
 fingers = 0
 print('-------------------------------------------------------')
 count = 0
+files_sum = 0
 
 for matricula in matriculas:
     files = [i for i in glob.glob(repo_dir+matricula+'/*.json')]
     files.sort()
+    files_sum += len(files)
     print(matricula,'qtd:',len(files))
     sum_error = 0
     for f in files:
@@ -39,3 +41,4 @@ for matricula in matriculas:
                 sum_error+=1
     #print(' erros:',sum_error,end='')
 print(count)
+print(files_sum)

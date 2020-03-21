@@ -77,8 +77,14 @@ def segment(img, circles):
         seg_imgs.append(aux)
     return seg_imgs
 
+def circle_2_mask(circle, res):
+    mask = np.zeros(res)
+    mask = cv.circle(mask,(circle[0],circle[1]),circle[2],(255,255,255),-1)
+    return mask
+    
+
 def data_from_json(filename):
-    circles = []
+    shapes = []
     with open(filename) as json_file:
         data = json.load(json_file)
         for i, shape in enumerate(data['shapes']):
@@ -89,7 +95,9 @@ def data_from_json(filename):
                 coord[0] = np.array(coord[0],dtype=np.int64)
                 coord[1] = np.array(coord[1],dtype=np.int64)
                 circle = (coord[0][0], coord[0][1],int(cv.norm(coord[0]-coord[1])))
-                circles.append(dict(coord=circle,label=shape['label']))
-    return circles,data['imagePath']
+                shapes.append(dict(coord=circle,label=shape['label'],shape_type=shape['shape_type']))
+            else: 
+                shapes.append(dict(coord=shape['points'],label=shape['label'],shape_type=shape['shape_type']))
+    return shapes,data['imagePath']
 
 
